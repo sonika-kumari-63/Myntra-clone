@@ -161,10 +161,15 @@ footer {
   font-size: 14px;
   padding-top: 10px;
   border-top: 1px solid #ccc;
-}
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
+} 
+
+@media (max-width: 750px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+ .nav-links {
+    display: flex;
   }
 
   .search-bar input {
@@ -180,64 +185,20 @@ footer {
   .footer-content div {
     margin-bottom: 20px;
   }
-}
-@media (max-width: 480px) {
-  .icons {
-    display: none;
-  }
-
-  .search-bar input {
+   .search-bar input {
     width: 140px;
-  }
-}
-
-@media (max-width: 280px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .search-bar input {
-    width: 80px;
   }
 }
 @media (max-width: 600px) {
   .category-section {
-    flex-direction: column;
+    flex-direction:wrap;
     align-items: center;
-    width: 100%;
+    padding: 20px;
   }
-}@meadia (max-width: 400px) {
-  .category-section{
-width: 100%;
-  }
-}
-@media (max-width: 600px) {
-  .offer-card {
-    width: 90%;
-  }
-}
-@media (max-width: 400px) {
-  .offer-card {
-    width: 70%;
-  }
-}@media(max-width: 350px) {
-  .offer-card {
-    width: 50%;
-  }
-}
-@media (max-width: 300px) {
-  .offer-card {
-    width: 40%;
-  }
-}
-@media (max-width: 250px) {
-  .offer-card {
-    width: 30%;
-  }
-}
-@media (max-width: 100px) {
-  .offer-card {
-    width: 10%;
-  }
+} 
+@meadia (max-width: 400px) {
+  .category-section {
+  flex-direction: wrap;
+    align-items: center;}
+
 }
