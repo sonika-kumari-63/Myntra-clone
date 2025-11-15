@@ -1,7 +1,7 @@
-<h1>Myntra Clone - README</h1>  
+## Myntra Clone - README
 This project is a **frontend-only Myntra Clone** built using **HTML** and **CSS**. It replicates the visual layout and design of the popular e-commerce platform Myntra, featuring a responsive navbar, offer sections, category-based product display, and footer.
 
-<h2>This clone is suitable for learning:</h2>
+## This clone is suitable for learning:
 * Website layout structuring
 * CSS styling and page organization
 * Responsive design using media queries
@@ -83,11 +83,4 @@ This file manages the look and feel of the webpage:
 
 * **600px:**
 * Category sections wrap into vertical layout
-
-##  How to Run the Project
-
-1. **Download/Clone the project**
-2. Place all image files inside an `/images` folder
-3. Open `index.html` in any browser (Chrome, Edge, Firefox)
-4. No dependencies or frameworks required
 
