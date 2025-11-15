@@ -9,7 +9,6 @@ This project is a **frontend-only Myntra Clone** built using **HTML** and **CSS*
 
 
 ## Technologies Used
-
 ### **1. HTML5**
 
 Used to create the overall structure of the webpage including:
