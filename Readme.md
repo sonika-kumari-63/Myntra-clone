@@ -27,8 +27,6 @@ Used for:
 * Shadows, spacing, typography
 
 ## Project Structure
-
-
 ### Myntra-Clone
 index.html        
 style.css        
@@ -37,8 +35,6 @@ images
  *offer-banner.png
  *category1.png
 .. more images
-
-
 
 ## File Descriptions
 ### **1. index.html**
@@ -77,120 +73,21 @@ This file manages the look and feel of the webpage:
 * Soft shadows for depth
 * Highlighted offer/info backgrounds
 
----
-
-## 📱 Responsive Design Details
+## Responsive Design Details
 
 ### **Breakpoints Used**:
-
 * **750px:**
-
-  * Navbar stacks vertically
+ * Navbar stacks vertically
   * Smaller search bar
   * Footer becomes centered
 
 * **600px:**
+* Category sections wrap into vertical layout
 
-  * Category sections wrap into vertical layout
-
-> Note: There is a typo in the code → `@meadia` should be `@media`. Fixing it will ensure correct responsiveness.
-
----
-
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. **Download/Clone the project**
 2. Place all image files inside an `/images` folder
 3. Open `index.html` in any browser (Chrome, Edge, Firefox)
 4. No dependencies or frameworks required
 
----
-
-## 🛠️ Customization Guide
-
-### **To change images:**
-
-Replace `<img src="...">` with your desired image path.
-
-### **To modify deals or categories:**
-
-Edit the content inside:
-
-```html
-<div class="offer-card"> ... </div>
-```
-
-### **To add new categories:**
-
-Copy & paste an existing `offer-card` block inside any `.category-section`.
-
----
-
-## ⚠️ Known Issues & Fixes
-
-### **1. Typo in media query**
-
-```css
-@meadia (max-width: 400px)  ❌ WRONG
-```
-
-Should be:
-
-```css
-@media (max-width: 400px) ✔️ CORRECT
-```
-
-### **2. Hard‑coded image sizes**
-
-Some images are stretched. You can adjust using:
-
-```css
-object-fit: contain;
-```
-
-### **3. Too many repeated CSS values**
-
-You can optimize by grouping card styles.
-
----
-
-## 📸 Screenshots (Optional)
-
-You can include UI screenshots here for project documentation.
-
----
-
-## 📚 Learning Outcomes
-
-After building this Myntra clone, you will learn:
-
-* HTML structuring for large web pages
-* Working with Flexbox to create grid-like layouts
-* Styling reusable card components
-* Improving UI/UX with spacing & shadows
-* Making web pages responsive
-
----
-
-## 📌 Future Improvements (Optional Enhancements)
-
-You can expand the project with:
-
-* JavaScript‑based search functionality
-* Product detail page
-* Login/signup page
-* Add to cart / wishlist features
-* Backend integration (Node.js / Firebase)
-
----
-
-## 🏁 Final Notes
-
-This project is perfect for beginners practicing front‑end development. You can use it as part of your portfolio or as the foundation for a fully functional e‑commerce website.
-
-If you want, I can help you:
-
-* Add JavaScript functionality
-* Make the page fully responsive
-* Convert it into a React project
-* Optimize folder structure
