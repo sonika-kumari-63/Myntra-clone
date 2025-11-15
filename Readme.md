@@ -12,7 +12,6 @@ This project is a **frontend-only Myntra Clone** built using **HTML** and **CSS*
 ### **1. HTML5**
 
 Used to create the overall structure of the webpage including:
-
 * Navbar
 * Banner section
 * Category/Deals sections
@@ -21,71 +20,54 @@ Used to create the overall structure of the webpage including:
 ### **2. CSS3**
 
 Used for:
-
 * Custom styling
 * Flexbox-based layout
 * Responsive design
 * Button/hover effects
 * Shadows, spacing, typography
 
----
+## Project Structure
 
-## 📁 Project Structure
 
-```
-Myntra-Clone/
-│
-├── index.html        # Main webpage
-├── style.css         # Stylesheet for UI
-├── images/           # Folder containing UI images/screenshots
-│   ├── images.png
-│   ├── offer-banner.png
-│   ├── category1.png
-│   └── ... more images
-```
+### Myntra-Clone
+index.html        
+style.css        
+images        
+ *images.png
+ *offer-banner.png
+ *category1.png
+.. more images
 
-> Note: In your actual project, replace screenshot file names with the correct image names.
 
----
 
-## 📄 File Descriptions
-
+## File Descriptions
 ### **1. index.html**
-
 This file contains the structure of the entire Myntra clone:
-
 * **Navbar** with logo, links, search bar, and icons
 * **Banner/Offers** section displaying promotional banners
 * **Deal Cards & Category Listings** arranged using Flexbox
 * **Footer** with three information sections
 
 ### **2. style.css**
-
 This file manages the look and feel of the webpage:
-
-* Reset styling using `* { margin: 0; padding: 0; }`
+* Reset styling using 
 * Navbar design (sticky, shadow, alignment)
 * Offer cards styling (shadow, hover effects, alignment)
 * Category grid styling
 * Footer styling
 * Media queries for mobile responsiveness
 
----
-
-## ⭐ Key Features
+##  Key Features
 
 ### **1. Fully Styled Navbar**
-
 * Sticky at the top
 * Contains brand logo, navigation links, search bar, profile/wishlist/bag icons
 
 ### **2. Deals & Category Sections**
-
 * Multiple horizontally aligned Flexbox sections
 * Each contains a product image, discount details, and CTA text
 
 ### **3. Responsive Layout**
-
 * Media queries adjust layout at **750px** and **600px** breakpoints
 * Mobile users see stacked sections
 
